@@ -77,8 +77,18 @@ pip install "git+https://github.com/Sandeepsrinivasan-14/Aura-App.git"          
 pip install "aura-git[gui,keyring] @ git+https://github.com/Sandeepsrinivasan-14/Aura-App.git"  # + desktop app, keychain
 ```
 
-Requires Git on `PATH`. On Windows you can instead download `Aura.exe` and `aura-cli.exe` from the latest
-[CI run](https://github.com/Sandeepsrinivasan-14/Aura-App/actions/workflows/ci.yml) or release.
+Requires Git on `PATH`.
+
+### Windows: download and run
+No Python needed. Download the latest build from the **[Releases page](https://github.com/Sandeepsrinivasan-14/Aura-App/releases/latest)**:
+
+| File | What it is |
+|------|------------|
+| `Aura.exe` | the desktop app. Double-click to run. |
+| `aura-cli.exe` | the command-line tool. Run it from a terminal. |
+
+The files are not code-signed, so Windows SmartScreen may say "Windows protected your PC" the first time.
+Click **More info**, then **Run anyway**. They are built from this repository by GitHub Actions on every `v*` tag.
 
 ## Usage
 
