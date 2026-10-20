@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Build output (executables are built by CI, never committed)
+build/
+dist/
+*.exe
+*.dll
+
+# Local
+.env

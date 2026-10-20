@@ -1,0 +1,5 @@
+# Copy to .auraignore in the repository you want Aura to watch.
+# Glob patterns, one per line. Folders end with "/". Anything in .gitignore is ignored already.
+data/
+*.csv
+notebooks/.ipynb_checkpoints/
